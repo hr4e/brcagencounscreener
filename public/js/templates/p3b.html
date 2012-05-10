@@ -1,0 +1,59 @@
+<div>
+    <p>
+        More information will help us assess your chances of having BRCA gene mutations.
+        Please answer ALL of the following questions about your
+        <span class='explained'>close blood relatives</span> ...
+    </p>
+    <p>
+    <table frame='border' rules='all' border='2px'>
+        <tr>
+            <td width='50%' valign='top'>
+                Q3f: I have at least one close blood relative who is <span class='explained'>Ashkenazi Jewish</span>?
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q3f' value='Yes' data-bind='checked: ashkenaziJewish'>Yes</input>
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q3f' value='No' data-bind='checked: ashkenaziJewish'>No</input>
+            </td>
+            <td width='25%'>
+                <input type='radio' name='Q3f' value='Unknown' data-bind='checked: ashkenaziJewish'>I don't know</input>
+            </td>
+        </tr>
+        <tr>
+            <td width='50%' valign='top'>
+                Q3g: I have at least one close blood relative with breast cancer that was diagnosed at age 50 years
+                or younger?
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q3g' value='Yes' data-bind='checked: pHxBrCAGE1RelBrCALE50Years'>Yes</input>
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q3g' value='No' data-bind='checked: pHxBrCAGE1RelBrCALE50Years'>No</input>
+            </td>
+            <td width='25%'>
+                <input type='radio' name='Q3g' value='Unknown' data-bind='checked: pHxBrCAGE1RelBrCALE50Years'>I don't know</input>
+            </td>
+        </tr>
+        <tr>
+            <td width='50%' valign='top'>
+                Q3h: I have at least two close blood relatives with breast or pancreatic cancer at any age?
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q3h' value='Yes' data-bind='checked: pHxBrCAGE2RelBrPancCA'>Yes</input>
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q3h' value='No' data-bind='checked: pHxBrCAGE2RelBrPancCA'>No</input>
+            </td>
+            <td width='25%'>
+                <input type='radio' name='Q3h' value='Unknown' data-bind='checked: pHxBrCAGE2RelBrPancCA'>I don't know</input>
+            </td>
+        </tr>
+    </table>
+    </p>
+    <!--
+    <br>
+    <div data-bind='html: results'>
+    </div>
+    -->
+</div>

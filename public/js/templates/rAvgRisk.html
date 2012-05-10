@@ -1,0 +1,73 @@
+<div>
+    <p>
+        I have completed
+        <span data-bind='html: questionnaireTitle'></span>
+        <span data-bind='html: questionnaireVersion'></span>
+    </p>
+    <table>
+        <tr>
+            <td valign='top' width='50%'><span data-bind='html: identification'></span></td>
+            <td valign='top' width='50%'></td>
+        </tr>
+    </table>
+    <br />
+    <table>
+        <tr>
+            <td valign='top' width='50%'>
+                I indicated that:
+                <span data-bind='html: $root.exitRationale()'></span>
+            </td>
+            <td valign='top' width='50%'>
+                <br /><br />
+                <sup>&#8224;</sup><span data-bind='html: getCloseBloodRelatives'></span>
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <table>
+        <tr>
+            <td width='300px'>
+                <img src='../images/NineOfTenWomen.png' alt='9 of 10 women image' />
+            </td>
+            <td valign='top'>
+                <p>
+                    Thank you!  
+                </p>
+                <p>
+                    Nine out of ten women will <b><i>not</i></b> get breast cancer, and
+                    your answers suggest that your chances are in this range.
+                </p>
+                <p>
+                    In general, there are several steps you can take to lower your chances of getting breast cancer,
+                    including regular exercise and a sensible diet. The links below have more detailed information about this topic.
+                </p>
+            </td>
+        </tr>
+    </table>
+    <p>
+    <div data-bind='html: assembleInternetResources'>
+    </div>
+    </p>
+    <p>
+        If you have <b><i>any</i></b> concerns (and especially if you believe you have an above average chance of
+        a detectable genetic abnormality) please  speak to your care provider(s).
+    </p>
+    <p>
+        If you have <b><i>already</i></b> had genetic testing and still have questions about
+        what this means, please discuss with your care providers at your earliest
+        convenience.
+    </p>
+    <p>
+        In case any of the information you have entered is incorrect, please click the "Back" button below as often as
+        you need to and change any answers that need correction.
+    </p>
+    <p>
+        Otherwise, please click the "Print" button below to print this page.  Pick up your printout,
+        then return this iPad to the desk where you obtained it.
+    </p>
+    <!--
+    <br>
+    <div data-bind='html: assembleResults'>
+    </div>
+    -->
+</div>

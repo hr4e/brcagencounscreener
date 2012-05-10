@@ -1,0 +1,68 @@
+<div>
+    <p>
+        I have completed
+        <span data-bind='html: questionnaireTitle'></span>
+        <span data-bind='html: questionnaireVersion'></span>
+    </p>
+    <table>
+        <tr>
+            <td valign='top' width='50%'><span data-bind='html: identification'></span></td>
+            <td valign='top' width='50%'></td>
+        </tr>
+    </table>
+    <br />
+    <table>
+        <tr>
+            <td valign='top' width='50%'>
+                I indicated that:
+                <span data-bind='html: $root.exitRationale()'></span>
+                <p>
+                    However, I was <i><b>unable</b></i> to provide information about whether or not:
+                </p>
+                <span data-bind='html: $root.missingData()'></span>
+            </td>
+            <td valign='top' width='50%'>
+                <br /><br />
+                <sup>&#8224;</sup><span data-bind='html: getCloseBloodRelatives'></span>
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <p>
+        Thank you!  
+     </p>
+    <p>
+        To more accurately assess your chances of getting breast breast and ovarian cancer, we need
+        the details about the information you could not provide.  For details about any prior cancers
+        (including prior breast cancer and its characteristics), please check with your care provider(s).
+        To help you collect information from your family that would fill in any other missing details,
+        please obtain a Family History form from the receptionist. We recommend that you talk with a
+        <span data-bind='text: sponsorAbbrev'></span> genetic counseling professional,
+        preferably after you have learned as much as you can from your family.
+        But whether or not you can learn more, please make that appointment by calling:
+        <span data-bind='text: sponsorContactPhone'></span>.  You also may ask the receptionist
+        for our handout on this topic.
+    </p>
+    <p>
+    <div data-bind='html: assembleInternetResources'>
+    </div>
+    </p>
+    <p>
+        If you have <b><i>already</i></b> had genetic testing and still have questions about
+        what this means, please discuss with your care providers at your earliest
+        convenience.
+    </p>
+    <p>
+        In case any of the information you have entered is incorrect, please click the "Back" button below as often as
+        you need to and change any answers that need correction.
+    </p>
+    <p>
+        Otherwise, please click the "Print" button below to print this page.  Pick up your printout,
+        then return this iPad to the desk where you obtained it.
+    </p>
+    <!--
+    <br>
+    <div data-bind='html: assembleResults'>
+    </div>
+    -->
+</div>

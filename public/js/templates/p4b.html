@@ -1,0 +1,55 @@
+<div>
+    <p>
+        Q6c: For your <span class='explained'>close blood relatives</span> who have had breast cancer, 
+        please indicate whether or not any of them <b><i>also</i></b> had any of the following
+        conditions, and if so, which:
+    </p>
+    <div>
+        <input type='radio' name='Q6c' value='Yes' data-bind='checked: fHxBrCARiskGroupB'>Yes</input>
+        <div class='nestedChecks'>
+            <div>
+                <input type='checkbox' data-bind='checked: fHxBrCADermMan'/>
+                <span>Skin manifestations of breast cancer</span>
+            </div>
+            <div>
+                <input type='checkbox' data-bind='checked: fHxBrCAThyroidCA'/>
+                <span>Thyroid cancer</span>
+            </div>
+            <div>
+                <input type='checkbox' data-bind='checked: fHxBrCASarcoma'/>
+                <span>Sarcoma</span>
+            </div>
+            <div>
+                <input type='checkbox' data-bind='checked: fHxBrCAAdrenalCA'/>
+                <span>Adrenocortical carcinoma</span>
+            </div>
+            <div>
+                <input type='checkbox' data-bind='checked: fHxBrCAEndometrialCA'/>
+                <span>Endometrial cancer</span>
+            </div>
+            <div>
+                <input type='checkbox' data-bind='checked: fHxBrCAPancreaticCA'/>
+                <span>Pancreatic cancer</span>
+            </div>
+            <div>
+                <input type='checkbox' data-bind='checked: fHxBrCABrainTumors'/>
+                <span>Brain tumors</span>
+            </div>
+            <div>
+                <input type='checkbox' data-bind='checked: fHxBrCAGastricCA'/>
+                <span>Diffuse gastric cancer</span>
+            </div>
+            <div>
+                <input type='checkbox' data-bind='checked: fHxBrCALeukLymphoma'/>
+                <span>Leukemia or lymphoma</span>
+            </div>
+        </div>
+        <input type='radio' name='Q6c' value='No' data-bind='checked: fHxBrCARiskGroupB'>No</input><br />
+        <input type='radio' name='Q6c' value='Unknown' data-bind='checked: fHxBrCARiskGroupB'>I don't know</input>
+    </div>
+    <!-- For debugging
+    <br>
+    <div data-bind='html:results'>
+    </div>
+    -->
+</div>

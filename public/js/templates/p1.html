@@ -1,0 +1,48 @@
+<div>
+    <p>
+        Two of the factors most predictive of increased chances of developing breast or ovarian cancer because of
+        gene mutations are personal or family history of ovarian and related cancers.
+    </p>
+    <table>
+        <tr>
+            <td width='50%' valign='top'>
+                <p>
+                    Q1: Please indicate whether or not you have ever had any of the following types of cancer:
+                </p>
+                <div>
+                    <input type='radio' name='Q1' value='Yes' data-bind='checked: pHxOvCARiskGroupA'>Yes</input>
+                    <div class='nestedChecks'>
+                        <div>
+                            <input type='checkbox' data-bind='checked: pHxOvarianCA'/>
+                            <span class='explained'>Ovarian cancer</span>
+                        </div>
+                        <div>
+                            <input type='checkbox' data-bind='checked: pHxFallopianCA'/>
+                            <span class='explained'>Cancer of the fallopian tubes</span>
+                        </div>
+                        <div>
+                            <input type='checkbox' data-bind='checked: pHxPeritonealCA'/>
+                            <span class='explained'>Cancer of the peritoneum (the lining of the abdominal cavity)</span>
+                        </div>
+                    </div>
+                    <input type='radio' name='Q1' value='No' data-bind='checked: pHxOvCARiskGroupA'>No</input>
+                </div>
+                <p>
+                    Please do not include the following types of cancer:<ul>
+                        <li>Cancer of the cervix / cervical cancer</li>
+                        <li>Cancer in the lining of the uterus / uterine cancer</li>
+                    </ul>
+                </p>
+            </td>
+            <td width='50%'>
+                <img src='../images/femaleReproductive.png' alt='female reproductive system image' />
+            </td>
+            
+        </tr>
+    </table>
+    <!--
+    <br>
+    <div data-bind='html: assembleResults'>
+    </div>
+    -->
+</div>

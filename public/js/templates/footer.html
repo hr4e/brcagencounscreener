@@ -1,0 +1,8 @@
+<div align='right'>
+    <button data-bind='click: returnExplain, visible: explainMode()'>Return</button>
+    <button data-bind='click: goExplain, visible: !explainMode() && !checkForTerminalScreen()'>
+        Please Explain <span style='color: black; background-color: yellow'>Highlighted Terms</span></button>
+    <button data-bind='click: back, visible: !explainMode() && currentIndex()>0'>Back</button>
+    <button data-bind='click: printPage, visible: !explainMode() && checkForTerminalScreen()'>Print</button>
+    <button data-bind='click: next, visible: !explainMode() && !checkForTerminalScreen()'>Next</button>
+</div>

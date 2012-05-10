@@ -1,0 +1,47 @@
+<div>
+    <p></p>
+    <div data-bind='html: getCloseBloodRelatives'>
+    </div>
+    <table>
+        <tr>
+            <td width='50%' valign='top'>
+                <p>
+                    Q2: Please indicate whether or not any of your close blood relatives have ever had the following cancers:
+                </p>
+                <div>
+                    <input type='radio' name='Q2' value='Yes' data-bind='checked: fHxOvCARiskGroupA'>Yes</input>
+                    <div class='nestedChecks'>
+                        <div>
+                            <input type='checkbox' data-bind='checked: fHxOvarianCA'/>
+                            <span class='explained'>Ovarian cancer</span>
+                        </div>
+                        <div>
+                            <input type='checkbox' data-bind='checked: fHxFallopianCA'/>
+                            <span class='explained'>Cancer of the fallopian tubes</span>
+                        </div>
+                        <div>
+                            <input type='checkbox' data-bind='checked: fHxPeritonealCA'/>
+                            <span class='explained'>Cancer of the peritoneum (the lining of the abdominal cavity)</span>
+                        </div>
+                    </div>
+                    <input type='radio' name='Q2' value='No' data-bind='checked: fHxOvCARiskGroupA'>No</input><br />
+                    <input type='radio' name='Q2' value='Unknown' data-bind='checked: fHxOvCARiskGroupA'>I don't know</input>
+                </div>
+                <p>
+                    Please do not include the following types of cancer:<ul>
+                        <li>Cancer of the cervix / cervical cancer</li>
+                        <li>Cancer in the lining of the uterus / uterine cancer</li>
+                    </ul>
+                </p>
+            </td>
+            <td width='50%'>
+                <img src='../images/femaleReproductive.png' alt='female reproductive system image' />
+            </td>
+        </tr>
+    </table>
+    <!--
+    <br>
+    <div data-bind='html: assembleResults'>
+    </div>
+    -->
+</div>

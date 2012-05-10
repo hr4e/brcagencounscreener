@@ -1,0 +1,57 @@
+<div>
+    <p>
+    Here too: <span data-bind='html: getCloseBloodRelatives'>
+    </span>
+    </p>
+    <p>
+    Please answer <b><i>ALL</i></b> of the following questions about your close blood relatives  ...
+    </p>
+    <p>
+    <table frame='border' rules='all' border='2px'>
+        <tr>
+            <td width='50%' valign='top'>
+                Q4: At least one of my close blood relatives is from a <span class='explained'>population at risk
+                for developing breast or ovarian cancer (such as Ashkanazi Jews)</span>?
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q4' value='Yes' data-bind='checked: recognizedRiskGroup'>Yes</input><br />
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q4' value='No' data-bind='checked: recognizedRiskGroup'>No</input><br />
+            </td>
+            <td width='25%'>
+                <input type='radio' name='Q4' value='Unknown' data-bind='checked: recognizedRiskGroup'>I don't know</input>
+            </td>
+        </tr>
+        <tr>
+            <td width='50%' valign='top'>
+                Q5: At least one of my close blood relatives has been confirmed to have <span class='explained'>gene mutations
+                that make breast and ovarian cancer more likely, such as BRCA</span>?
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q5' value='Yes' data-bind='checked: fHxBrCASuscGene'>Yes</input><br />
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q5' value='No' data-bind='checked: fHxBrCASuscGene'>No</input><br />
+            </td>
+            <td width='25%'>
+                <input type='radio' name='Q5' value='Unknown' data-bind='checked: fHxBrCASuscGene'>I don't know</input>
+            </td>
+        </tr>
+        <tr>
+            <td width='50%' valign='top'>
+                Q6: At least one of my close blood relatives has had breast cancer?
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q6' value='Yes' data-bind='checked: fHxBreastCA'>Yes</input><br />
+            </td>
+            <td width='12.5%'>
+                <input type='radio' name='Q6' value='No' data-bind='checked: fHxBreastCA'>No</input><br />
+            </td>
+            <td width='25%'>
+                <input type='radio' name='Q6' value='Unknown' data-bind='checked: fHxBreastCA'>I don't know</input>
+            </td>
+        </tr>
+   </table>
+   </p>
+</div>
